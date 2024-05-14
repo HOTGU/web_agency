@@ -10,7 +10,7 @@ export default function Home() {
         <Container>
           <div className="flex h-screen">
             <div className="w-1/2 flex items-center justify-center">
-              <FramerText text="hello world" type="title" />
+              <FramerText text="" type="title" />
             </div>
             <div className="w-1/2">
               <Lottie data={Json} loop={false} />

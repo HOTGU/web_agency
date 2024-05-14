@@ -13,6 +13,7 @@ const FramerText = ({ text, type = "default" }: IFramerText) => {
     <>
       {text.split("").map((item, index) => (
         <motion.span
+          key={index}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.5 + index / 10 }}
